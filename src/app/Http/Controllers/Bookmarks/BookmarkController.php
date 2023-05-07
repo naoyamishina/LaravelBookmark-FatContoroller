@@ -23,6 +23,7 @@ use Illuminate\Validation\ValidationException;
 use Illuminate\View\View;
 use App\Http\Requests\CreateBookmarkRequest;
 use App\Bookmark\UseCase\ShowBookmarkListPageUseCase;
+use App\Bookmark\UseCase\CreateBookmarkUseCase;
 
 class BookmarkController extends Controller
 {
